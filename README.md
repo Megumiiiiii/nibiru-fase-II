@@ -84,7 +84,7 @@ Scroll output nya, akan ada `contract_address`
     
 ### Cek Balance
 ```
-nibidd query wasm contract-state smart Contract_Address '{"balance":{"address":"Address_Nibiru"}}'
+nibid query wasm contract-state smart Contract_Address '{"balance":{"address":"Address_Nibiru"}}'
 ```
 <p align="left"><img height="auto" width="auto" src="https://github.com/Megumiiiiii/nibiru-fase-II/assets/98658943/64d7a30c-43e5-4385-8d23-4893d2b347d1"</p>
 
@@ -95,3 +95,8 @@ nibidd query wasm contract-state smart Contract_Address '{"balance":{"address":"
 nibid tx wasm execute Contract_Address '{"transfer":{"amount":"200","owner":"Address_Nibiru","recipient":"Address_Nibiru_Penerima"}}' --from wallet --gas auto --gas-adjustment 1.5 --fees 10000unibi -y
 ```
  
+#
+
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzNmZTIxZmE3ZmY3MzRiMDcwNDJhYTQ5ZmNlY2YxMWE1OWIyYmVkNSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/mVBlqOD4ra9jQiI3cC/giphy.gif" height="125" width="420"/>
+</div>
