@@ -63,7 +63,7 @@ Copy dari `Code: 0` sampai `txhash: ` dan simpan di notepad
 Copy `Code ID` dari output tadi, untuk membuat token
 <p align="left"><img height="auto" width="auto" src="https://github.com/Megumiiiiii/nibiru-fase-II/assets/98658943/56c329e4-b99c-4631-ac3f-81cf4314ba72"</p>
 
-Sesuikan `name` `symbol` `decimal`  `address_valoper` `total_supply` `label` sesuka hati
+Sesuikan `name` `symbol` `decimal`  `address_nibiru` `total_supply` `label` sesuka hati
     
 ```
 nibid tx wasm instantiate CODE_ID_MU --admin Address_Nibiru  \
@@ -92,6 +92,6 @@ nibidd query wasm contract-state smart Contract_Address '{"balance":{"address":"
     
 ### Test Send
 ```
-nibid tx wasm execute Contract_Address '{"transfer":{"amount":"200","owner":"Address_Nibiru","recipient":"Address_Nibiru_Penerima"}}' --from wallet --gas auto --gas-adjustment 1.5 --fees 5000unibi -y
+nibid tx wasm execute Contract_Address '{"transfer":{"amount":"200","owner":"Address_Nibiru","recipient":"Address_Nibiru_Penerima"}}' --from wallet --gas auto --gas-adjustment 1.5 --fees 10000unibi -y
 ```
  
